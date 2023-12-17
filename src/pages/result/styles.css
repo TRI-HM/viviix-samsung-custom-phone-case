@@ -1,0 +1,22 @@
+#container-result{
+ position: relative;
+ width: 100%;
+ margin-top: 20%;
+}
+
+#imgTexture{
+ /* position: absolute; */
+ border-radius: 15px;
+ height: 100%;
+ width: 100%;
+ border-radius: 25px;
+}
+
+.disable-opacity {
+    opacity: 1 !important;
+}
+
+/* 
+#mask-of-pattern in styles.css of sticker
+*/
+

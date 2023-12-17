@@ -1,0 +1,110 @@
+.next-button{
+    background-image: var(--next-button-background);
+}
+
+.next-button:active{
+    background-image: var(--next-button-active-background) ;
+}
+
+.next-button,.send-button {
+    width: 90px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    /* margin-left: 40px; */
+   /* margin-right: 40px; */
+}
+
+.previous-button,.forward-logo-button {
+    width: 90px;
+    height: 50px;
+    background-image:var(--previous-button-background);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    /* margin-left: 10px; */
+   /* margin-right: 10px; */
+    
+}
+
+.previous-button:active {
+    background-image: url(/src/asset/img/button/d_back.png);
+}
+  
+/* button  */
+.next-button,
+.previous-button,
+.forward-logo-button
+,.send-button {
+   margin: 5px 20px;
+}
+
+.start-button {
+    width: 120px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.send-button {
+    background-image: url(/src/asset/img/button/send.png);
+}
+
+.send-button:enabled:active{
+    background-image: url(/src/asset/img/button/d_send.png);
+}
+
+button:disabled,
+button[disabled] {
+    opacity: 0.5;
+}
+
+.start-button {
+    background-image: var(--start-button-background);
+}
+
+.start-button:active {
+    background-image: var(--start-button-active-background);
+}
+
+
+
+.forward{
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.forward-BG-button{
+    background-image: url(/src/asset/img/button/back.png);
+}
+
+.forward-BG-button:active{
+    background-image: url(/src/asset/img/button/d_back.png);
+}
+
+.forward-logo-button:active{
+    background-image: url(/src/asset/img/button/d_back.png);
+}
+
+.forward-sticker-button{
+    background-image: url(/src/asset/img/button/back.png);
+    
+}
+
+.forward-sticker-button:active{
+    background-image: url(/src/asset/img/button/d_back.png);
+}
+
+

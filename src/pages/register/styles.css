@@ -1,0 +1,28 @@
+input {
+ height: 2em;
+ width: 75vw;
+ font-size: var(--font-size-input);
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: var(--font-weight-input);
+ background-image: var(--background-input);
+ background-size: 100% 100%;
+ border: none;
+ background-color: transparent;
+}
+
+input:focus {
+ outline: none;
+}
+
+div> div > input{
+position: absolute;
+top: 37%;
+}
+
+@media only screen and (width > 390px) {
+ input{
+  width: 310px
+ }
+ }
+

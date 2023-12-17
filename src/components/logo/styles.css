@@ -1,0 +1,12 @@
+.logo-samsum{
+ position: absolute;
+ width: 50%;
+ top: 0;
+ left: 50%;
+ /* transform: translate(-50% 0) !important; */
+ /* transform: rotate(-90deg); */
+}
+
+#logo-samsum-img{
+ width: 100%;
+}

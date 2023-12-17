@@ -1,0 +1,25 @@
+:root{
+ /* background */
+ --background-main: url(/src/asset/img/background/main.webp);
+
+ /* display */
+ --display-width: 100vw;
+ --display-height: calc(var(--display-width)*19.5/9);
+
+ /* height */
+ --title-height: 20%;
+ --navigation-button-height: 70px;
+
+ /* button */
+--next-button-background: url(/src/asset/img/button/next.png);
+--next-button-active-background: url(/src/asset/img/button/d_next.png);
+--previous-button-background: url(/src/asset/img/button/back.png);
+--start-button-background: url(/src/asset/img/button/start.png);
+--start-button-active-background: url(/src/asset/img/button/d_start.png);
+
+/* input */
+--background-input: url(/src/asset/img/element/input.webp);
+--font-size-input: 2em;
+--font-weight-input: 700;
+
+}

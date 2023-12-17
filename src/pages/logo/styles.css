@@ -1,0 +1,13 @@
+.sticker-container {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50% , -50%);
+}
+
+.sticker-cell{
+    width: 25%;
+    margin: 3%;
+    border-radius: 18%;
+}

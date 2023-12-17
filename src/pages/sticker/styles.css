@@ -1,0 +1,132 @@
+#icon-list {
+    position: absolute;
+    width: 94%;
+    height: 120px;
+    bottom: 20px;
+    background-color:rgba(204, 255, 299, 0.4);
+    overflow-y: auto;
+    left: 3%;
+    border: 50px;
+    border-color: blue;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: inset;
+    border-color: #33FF99;
+}
+
+#icon-list > img {
+    width: 55px;
+    margin: 3px;
+}
+
+.custom{
+    position: absolute;
+    left: calc((100vw - 213px)/2);
+}
+
+.container {
+    position: absolute;
+    height: 425px;
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    background-size: 110px 110px;
+    margin-top: 2.5px;
+    border-radius: 15px;
+    
+}
+
+#mask{
+    position: absolute;
+    pointer-events: none;
+    left: 2px;
+}
+
+#mask>img{
+    position: absolute;
+    height: auto;
+    width: 210px;
+    z-index: 9999999;
+    opacity: 0.87;
+}
+
+.dragging {
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .target-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+
+.container .selected {
+    border: 2px solid blue;
+    border-radius: 18%;
+}
+
+.target-img {
+    background: transparent;
+}
+
+.circle-button.bottom-right {
+    bottom: -10px;
+    right: -10px;
+}
+
+.item-wrapper {
+    position: absolute;
+    background-color: aqua;
+    width: 100vw;
+}
+
+/* .sjx-wrapper {
+    left: -120px;
+} */
+
+.item-content {
+    position: relative;
+}
+
+.resize-icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    height: auto;
+    /* background-color: blue; */
+}
+
+#delete{
+    position: absolute;
+    background-image: url(/src/asset/img/element/bin.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    right: 7%;
+    bottom: 200px;
+    /* top: -15%; */
+}
+#delete:active{
+    width: 55px;
+    height: 55px;
+    right: 5%;
+}
+
+
+
+/* @media only screen and (width > 390px) {
+.container{
+    margin-top: 2px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+} */
+  

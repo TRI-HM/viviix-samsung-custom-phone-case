@@ -1,0 +1,73 @@
+.display {
+    position: relative;
+    width: var(--display-width);
+    height: var(--display-height);
+    overflow: hidden;
+    text-align: center;
+    background-image: var(--background-main);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.layout-container{
+    position: relative;
+    height: calc(100% - var(--title-height) - var(--navigation-button-height));
+}
+
+.navigation-Button {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: var(--navigation-button-height);
+    
+}
+
+@media only screen and (width > 450px) {
+    #root{
+        background-color: aqua;
+    }
+    .display{
+        width: 450px;
+        height: 975px;
+        background-size: 450px 100vh;
+        background-position: center;
+        display: block;
+        margin: auto;
+    }
+
+    .custom{
+        left: calc((450px - 260px)/2);
+    }
+
+    #mask > img{
+        width: 260px;
+    }
+
+    #container-wrapper {
+        position: absolute;
+        height: 529px;
+        width: 227px;
+        left: 19px;
+        top: 2px;
+    }
+
+    .container{
+        height: 525px;
+        width: 225px;
+    }
+
+    #imgModel-model{
+        width: 281px;
+        top: 5%;
+    }
+}
+
+@media only screen and (width < 450px) {
+    #container-wrapper {
+        position: absolute;
+        height: 428px;
+        width: 179px;
+        top: 2px;
+        left: 17.5px;
+    }
+}
