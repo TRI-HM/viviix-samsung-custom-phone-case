@@ -7,4 +7,4 @@ Trang web được xây dựng dành cho phiên bản điện thoại. Một gam
 
 # Hướng dẫn:
 - `npm start` để chạy trang web, ở local.
-- `cd maychu-test` và `node serverNestel.js` để khởi động máy chủ local để nhận kết quả. Server sẽ được chạy ở port `30000`.
+- `cd maychu-test` và `node server.js` để khởi động máy chủ local để nhận kết quả. Server sẽ được chạy ở port `30000`.
