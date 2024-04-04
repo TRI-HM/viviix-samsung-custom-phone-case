@@ -7,10 +7,6 @@ const app = express();
 // Enable CORS
 app.use(cors());
 
-// app.use(cors({
-//     origin: 'http://localhost:3000' // only allow requests from this origin
-// }));
-
 // Middleware to parse JSON bodies
 app.use(bodyParser.json({limit: '50mb'}));
 
